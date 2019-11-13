@@ -11,6 +11,7 @@ import {EmployeeDataService} from './DataServices/EmployeeDataService';
 import { Routes, RouterModule } from '@angular/router';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MyTestComponent } from './my-test/my-test.component';
 
 const appRoutes: Routes = [
   { path: '', component: EmployeeHomeComponent },
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     EmployeeComponent,
     EmployeeHomeComponent,
     EmployeeDetailsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MyTestComponent
   ],
   imports: [
     BrowserModule, HttpClientModule, FormsModule,
